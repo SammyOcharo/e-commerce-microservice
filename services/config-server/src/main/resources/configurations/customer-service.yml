@@ -1,0 +1,12 @@
+spring:
+  data:
+    username: sammy
+    password: sammysteve
+    additional-host: localhost
+    port: 27017
+    database: customer
+    authentication-database: admin
+
+
+server:
+  port: 8090

@@ -1,0 +1,57 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+###config server microservice application.yml
+services/config-server/src/main/resources/application.yml
+
+###customer microservice application.yml
+services/customer/src/main/resources/application.yml
+
+###discovery microservice application.yml
+services/discovery/src/main/resources/application.yml
+
+###gateway microservice application.yml
+services/gateway/src/main/resources/application.yml
+
+###notification microservice application.yml
+services/notification/src/main/resources/application.yml
+
+###order microservice application.yml
+services/order/src/main/resources/application.yml
+
+###payment microservice application.yml
+services/payment/src/main/resources/application.yml
+
+###product microservice application.yml
+services/product/src/main/resources/application.yml
