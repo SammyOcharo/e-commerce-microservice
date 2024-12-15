@@ -66,7 +66,7 @@ The application is containerized using Docker and orchestrated through Docker Co
 
 ### 1. Clone Repository
 ```bash
-git clone <repository-url>
+git clone git@github.com:SammyOcharo/e-commerce-microservice.git
 cd eCommerceApp
 ```
 
